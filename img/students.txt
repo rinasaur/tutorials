@@ -1,0 +1,3 @@
+Potter,Harry,3.2
+Granger,Hermione,4.0
+Weasley,Ron,2.8
