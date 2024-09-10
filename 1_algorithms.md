@@ -22,17 +22,32 @@ You **do not** need a computer for today's tutorial. Your instructor will assign
 
     1. Write a sequence of instructions which direct Otto to walk forward five steps and then return to his resting state.
 
-        > :stop_sign: Pause! Wait for further instructions.
+        > stand up
+        > repeat 5 times [ take a step ]
+        > sit down 
 
     2. Write a sequence of instructions which direct Otto to walk in a square which is three steps on each side.  All turns are left-hand turns.
 
-        > :stop_sign: Pause! Wait for further instructions.
+        > stand up
+        > repeat 3 times [ take a step ]
+        > turn
+        > repeat 3 times [ take a step ]
+        > turn
+        > repeat 3 times [ take a step ]
+        > turn
+        > repeat 3 times [ take a step ]
+        > sit down
 
 2. In pseudocode, write an algorithm which reads a four-digit positive integer, and writes the number which is formed by placing the ones digit in the tens column and the thousands digit in the ones column. For example, if the input is 8052, the output is 28. If the input is 1234, the output is 41.
 
     You may assume the following arithmetic operations are available: +, –, ×, div and mod. "x div y" gives the whole quotient of x ÷ y, whereas "x mod y" gives the remainder.
+1 Ask user for a four-digit positive integer
+    i ask user for number in ones digit
+   ii ask user for number in thousands digit
+2 print(thousands digit() + ones digit()) 
 
-3. Study the following algorithm, meant to run on a computer that can "read" inputs from some source, and "write" outputs to some destination. To see what it does, *trace* it (that is, follow it exactly step-by-step) using the input sequence: 7, 3, 8, 10, 4. Concisely but precisely, describe (a) its input, (b) its corresponding output and (c) it's purpose (the function it implements). Describe any assumptions made by the algorithm’s designer about the format of the input.
+
+4. Study the following algorithm, meant to run on a computer that can "read" inputs from some source, and "write" outputs to some destination. To see what it does, *trace* it (that is, follow it exactly step-by-step) using the input sequence: 7, 3, 8, 10, 4. Concisely but precisely, describe (a) its input, (b) its corresponding output and (c) it's purpose (the function it implements). Describe any assumptions made by the algorithm’s designer about the format of the input.
 
     ```
     read largest
@@ -50,12 +65,12 @@ You **do not** need a computer for today's tutorial. Your instructor will assign
 
     Note: it is assumed that the instruction `read var` attempts to read the next input value into variable var.  However, if there is no such value because the input is at an end (the input may be finite), then the latest read will be unsuccessful and var will contain an undefined value.  Assume also that it is always possible to ask if the most recent read was successful or not.
 
-4. In pseudocode, design an algorithm which reads a sequence of one or more numbers, and determines how many of the numbers in the list are larger than the first.
+5. In pseudocode, design an algorithm which reads a sequence of one or more numbers, and determines how many of the numbers in the list are larger than the first.
 
-5. Pretend that you are designing "Otto v2.0".
+6. Pretend that you are designing "Otto v2.0".
    1. Can you think of a useful modification to his current knowledge base, to shorten programs like the solution to 1a)?
    2. Re-write your solution to 1 b) for Otto 2.0 using your proposed modification.
    3. Can you suggest any other useful features to add to Otto v2.0's language?
    4. Otto lacks a decision making instruction.  Pretend that Otto v2.0 will be equipped with a proximity sensor.  This will enable him to sense whether or not he's too close to an object to take a step forward.  Design one or two instructions to add to his knowledge base so that an Otto programmer could make good use of them
    
-6. In pseudocode, design an algorithm which will read three numbers and determine which is the largest and which is the smallest.
+7. In pseudocode, design an algorithm which will read three numbers and determine which is the largest and which is the smallest.
